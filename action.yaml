@@ -1,5 +1,8 @@
 # test action creation following https://www.philschmid.de/create-custom-github-action-in-4-steps
 name: 'Get pokemon name via API Github Action'
+branding:
+  icon: 'cloud'
+  color: 'blue'
 description: 'Call an API and get the result'
 inputs:
   pokemon_id:
